@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task29</title>
+    <style>
+        .form {
+            clear: both;
+            padding: 10px;
+        }
+
+        .form label {
+            width: 70px;
+            display: inline-block;
+            text-align: right;
+            float: left;
+            line-height: 40px;
+        }
+
+        .form input {
+            width: 310px;
+            height: 30px;
+            margin-left: 20px;
+            padding: 5px 10px;
+            float: left;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1) inset;
+            border-radius: 5px;
+            outline: none;
+        }
+
+        .form .msg {
+            float: left;
+            clear: both;
+            margin-left: 90px;
+            color: #666;
+            font-size: 14px;
+            margin-top: 4px;
+        }
+
+        form {
+            width: 450px;
+        }
+
+        form button {
+            float: right;
+            height: 40px;
+            padding: 0 30px;
+            border: 1px solid #2c6ba7;
+            border-radius: 5px;
+            background-color: #3278b8;
+            color: #fff;
+            outline: none;
+            cursor: pointer;
+            margin-top: 10px;
+            margin-right: 20px;
+            font-size: 16px;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+<form class="validateForm form">
+    <div class="form">
+        <label for="name">名称</label>
+        <input class="txtInput empty" id="nameTest" type="text">
+    </div>
+    <div class="form">
+        <label for="name">密码</label>
+        <input class="txtInput psw" id="pswTest" type="text">
+    </div>
+    <div class="form">
+        <label for="name">密码确认</label>
+        <input class="txtInput" id="name" type="text">
+    </div>
+    <div class="form">
+        <label for="name">邮箱</label>
+        <input class="txtInput empty" id="emailTest" type="text">
+    </div>
+    <div class="form">
+        <label for="name">手机</label>
+        <input class="txtInput" id="mobileTest" type="text">
+    </div>
+    <button type="submit" class="checkBtn">验证</button>
+</form>
+<script src="ValidateForm.js"></script>
+<script !src="">
+    Validate();
+</script>
+</body>
+</html>
